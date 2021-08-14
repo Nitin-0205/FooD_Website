@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Fonts Play
+    </title>
+    <link rel="stylesheet" href="Scrab.css" >
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    </style>
+</head>
+
+<body>
+    <div class = "Bg_img_container">
+        <img class ="Background_img" src="image/About_back.jpg" alt="image not found">
+    </div>
+    <nav id="navbar">
+        <div class = "nav_log_titl">
+        <div>
+            <img id="logo" src="image/rulk.png" alt="image not found" title = "Nitin Gupta">
+        </div>
+            <a name='title' class="Tilt" >HULK FOOD SERVICE</a>
+        </div>
+        <button onclick="dropDownFun()" id= "navDrop"><i class="fas fa-bars"></i></button>
+        <ul id = "drop_list_id" class ="drop_close">
+            <li><a class = "itm" href="#">Home</a></li>
+            <li><a class = "itm" href="#about">About</a></li>
+            <li><a class = "itm" href="#services">Servicer</a></li>
+            <li><a class = "itm" href="#contact_us">Contact us</a></li>
+        </ul>
+    </nav>
+    
+    <main id="Main">
+        <section class="aboutSection">
+            <div id="about">
+                <h1>About</h1>
+                <p><strong>OUR MISSION : </strong><br><em> Fighting Hunger. Nourishing Our Community.</em></p>
+                <p></strong>Our work is guided by these values : <strong>
+                        <br> Everyone deserves access to healthy food, where they live, that they can get to.
+                            Everyone deserves access to foods that are familiar to them and fit their cultural and dietary
+                            needs.
+                            Working collaboratively with other community organizations drives our mutual success.
+                            Operating in a way that supports equity, sustainability and fairness to all builds stronger
+                            communities</p>
+            </div>
+        </section>
+        
+        <section>
+            <div id="services">
+                <div id="SerTxt">
+                    <h1>Services</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ipsum possimus ea animi molestiae
+                        eligendi tempore maiores. Repellat dolore, reprehenderit tempora harum debitis quidem animi voluptatem
+                        assumenda ab recusandae necessitatibus, aut omnis iure quia, quaerat sapiente!</p>
+                </div>
+                <div class = "Service_Img_conta">
+                    <img src="image/serviceImg.jpg">
+                </div>
+            </div>
+        </section>
+    
+         <div id='menu'>
+                <div class=menuCon>
+                    <h1>Menu</h1>
+                    <p>Unique wood fired pizzas or be tempted by our pasta, antipasto, focaccias, salads and Bruschetta
+                        dishes.
+                        Relax in the friendly ambience as you enjoy the aromas of the wood ovens or sit al fresco and soak
+                        up
+                        the Mildura sunshine.</p>
+                </div>
+                <div class = menu_But_container>
+                    <button onclick="MenuButFun()"class ="menu_But">Roll's <span><i class="far fa-burrito"></i></span></button>
+                    <button onclick="MenuButFun()" class ="menu_But">Dessert <span><i class="fas fa-pie"></i></span></button>
+                    <button onclick="MenuButFun()" class ="menu_But">Non Veg <span><i class="fas fa-turkey"></i></span> </button>
+                    <button onclick="MenuButFun()" class ="menu_But">Pizza <span><i class="fas fa-pizza-slice"></i></span></button>
+                    <button onclick="MenuButFun()" class ="menu_But">Breverage <span><i class="far fa-coffee-togo"></i></span> </button>
+                    <button onclick="MenuButFun()" class ="menu_But">Meals <span><i class="fad fa-burger-soda"></i></span></button>
+                </div>
+        </div>
+        
+        <section class="Login_Section">
+            <div class="Log_Title_container">
+                <h1 id="log_change"></h1>
+                <p>Order food from favourite restaurants near you.</p>
+                
+                <div class="log_input_container">
+                    <input type="text" placeholder="Enter Your Delivery Location">
+                    <button onclick="locationpage()">Submit</button>
+                </div>
+            </div>
+            <div class="loction_gif_container"><img src = "image/location_img2.gif" ></div>
+        </section>
+        <section class = "strik">
+            <div class ="strike_all_contain">
+                <div class ="Strik_content">
+                    <h5>
+                        <span class = "title">Lightning-Fast Delivery</span><br>Experience Swiggy's superfast delivery <br>for food delivered fresh & on time
+                    </h5>
+                    <div  class ="dilevery_gif_container">
+                        <img id = "dilevery_gif_id" class ="delivery_gif" src ="image/Delivery2.gif">
+                    </div>
+                </div>
+                <div class ="Strik_content">
+                    <h5>
+                        <span class = "title">Live Order Tracking</span><br>Know where your order is at all times,<br> from the restaurant to your doorstep
+                    </h5>
+                    <div class ="dilevery_gif_container">
+                        <img class ="delivery_gif" src ="image/map.png">
+                    </div>
+                </div>
+                <div class ="Strik_content">
+                    <h5>
+                        <span class = "title">No Minimum Order</span><br>Order in for yourself or for the group,<br>with no restrictions on order value
+                    </h5>
+                    <div class ="dilevery_gif_container">
+                        <img class ="delivery_gif" src ="image/minOrder.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id = "contact_us" class="Contact_Section">
+            <div class = "Contact_txt_img">
+                <div class="Cont_Title_container">
+                    <h1>Contact Us</h1>
+                    <p>Have a query, question or suggestion regarding our services? Get in touch with our expert team by filling out the form below.</p>
+                </div>
+                <div class = "contact_img_container">
+                    <img src="image/Contact_us_top.gif">
+                </div>
+            </div>
+            <form>
+                <p>Send us a Message <i class="far fa-comments"></i></p>
+                <input type ="text" placeholder="First Name">
+                <input type ="text" placeholder="Last Name">
+                <input type ="email" placeholder="Enter Email">
+                <textarea class = "form_message" rows = "3"  placeholder="Message"></textarea>
+                <button onclick="Send_Message()">Send Message <i class="fad fa-paper-plane"></i></button>
+
+
+            </form>
+        </section>
+    </main>
+
+<footer id="footer">
+    <div id="footer_ele_con" >
+    <div id = "footC1" class="foot_boxs">
+        <h1 class = "head_title"> Nitin Gupta</h1>
+            <p>
+            <address>Santacruz(East),<br>Mumbai City,<br>Pin - 400055.</address><br> <strong>Phone : </strong> +1 5589
+            55488 55<br><strong>Email : </strong> <em>nitin@examplegmail.com</em></p>
+    </div>
+    <div id = "footC2" class="foot_boxs">
+        <h1 class = "head_title">Usefull Links</h1>
+            <ul>
+                <li><a href="#navbar">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#navbar">Term and condition</a></li>
+                <li><a href="#navbar">Privacy Policy</a></li>
+            </ul>
+    </div>
+    <div id = "footC3" class="foot_boxs">
+        <h1 class = "head_title">Our Social Networks</h1>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100013975472406"><i class="fab fa-facebook"></i></a></li>
+                <li><a href= "https://www.instagram.com/nitingupta1906/"><i class="fab fa-instagram" ></i></a></li>
+                <li><a href= "https://www.linkedin.com/in/nitin-gupta-6732211b7/"><i class="fab fa-linkedin-in"></i></i></a></li>
+                <li><a href= "https://twitter.com/NitinGu24695830"><i class="fab fa-twitter"></i></a></li>
+
+            </ul>
+    </div>
+</div>
+    <div class = "copy_container"><p id = "copywrite"></p></div>
+</footer>
+<script src = "Scrab.js"></script>
+</body>
+
+</html>
