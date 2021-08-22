@@ -3,6 +3,14 @@
     margin:0;
     box-sizing:border-box;
 }
+#Load_img{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background:#fff url("image/loader_food.gif") no-repeat center;
+    position: fixed;   
+    z-index: 100;
+}
 .Bg_img_container{
     position: fixed;
     z-index:-10;

@@ -1,3 +1,9 @@
+const load = document.getElementById("Load_img");
+
+function loading_Fun(){
+    load.style.display ="none";
+}
+
 function dropDownFun(){
     let x = document.getElementById("drop_list_id");
     let drop_icon = document.getElementById("navDrop");
