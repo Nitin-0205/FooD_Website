@@ -33,6 +33,7 @@
     background-color: rgb(57, 69, 90);
     padding:0.6rem 0.4rem;
     border-bottom:2px solid cyan;
+    transition:5s;
 }
 .nav_log_titl{
     display: flex;
