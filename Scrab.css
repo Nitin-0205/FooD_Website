@@ -33,7 +33,6 @@
     background-color: rgb(57, 69, 90);
     padding:0.6rem 0.4rem;
     border-bottom:2px solid cyan;
-    transition:5s;
 }
 .nav_log_titl{
     display: flex;
@@ -62,6 +61,8 @@
     color:#66ffff;
     border:1px solid white;
     border-radius: 5px;
+    transition:2s;
+
 }
 #navDrop:active{
     box-shadow: 0 0 5px #66ffff;
