@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Nitin Food Home
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gideon+Roman&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #home {
+            width: 100%;
+            min-height: 100vh;
+            overflow-x: hidden;
+            background: no-repeat url('./image/home_bg.jpeg') center/cover;
+
+        }
+
+        .home_contain {
+            width: 50%;
+            height: 100vh;
+            padding: 7rem 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+
+        }
+        .CloseMenubtn{
+            position: absolute;
+            border-style: none;
+            background: transparent;
+            font-size: 4rem;
+            transition: 0.8s;
+            top:2rem;
+            right: 3rem;
+
+        }
+        .CloseMenubtn a{
+            text-decoration: none;
+            color: darkcyan;
+        }
+        .CloseMenubtn:hover{
+            color:dodgerblue;
+        }
+        .CloseMenubtn:active {
+            transform:rotateZ(-360deg);
+        }
+
+        .home_contain h1 {
+            color: white;
+            font-size: 4rem;
+            text-shadow: 2px 2px 5px rgba(221, 176, 29, 0.664);
+            font-family: 'Gideon Roman', cursive;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .home_contain h1 span {
+            color: crimson;
+
+        }
+
+        .home_contain p {
+            margin-top: 3rem;
+            font-size: 2rem;
+            color: lightcyan;
+            line-height: 3.2rem;
+            word-spacing: 0.5rem;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            padding-bottom: 2rem;
+
+        }
+
+        @media (max-width:1000px) {
+            .home_contain {
+                width: 100%;
+            }
+            .CloseMenubtn{
+                font-size: 2.5rem;
+                right: 1rem;
+            }
+
+            .home_contain h1 {
+                font-size: 2.5rem;
+            }
+
+            .home_contain p {
+                font-size: 1.5rem;
+                line-height: 2rem;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id='home'>
+        <button class = 'CloseMenubtn'><a href ="index.html"><i class="far fa-arrow-circle-left"></i></a></button>
+        <div class='home_contain'>
+            <h1>Welcome To <span>Hulk</span> Food Services</h1>
+            <p>these is Food Website Which as being Designed By Nitin ,We are Here You to Provide a great Delicious food
+                directly to your home </p>
+        </div>
+    </div>
+</body>
+
+</html>

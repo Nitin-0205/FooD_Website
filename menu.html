@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel = 'stylesheet' href = 'menuStyle.css'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+ 
+</head>
+<body onload="loading_Fun()">
+    <div id="Load_img"></div>
+    <div id = menu_page>
+        <button class = "menu_drp_btn" onclick = "dropBtn()"><img  src ="image/menu/menu_drop_btn.png"></button>
+        <div id = 'men' class = "menu_tab">
+            <button  onclick ="CloseMen()" class = 'CloseMenubtn'><i class="fad fa-times"></i></button>
+            <img src="./image/menu/menu_tabImg.png"/>
+            <ul class = "menu_ul">
+                <li><a href="./index.html">Home</a></li>
+                <li><a onclick = "CloseMen()" href="#roll">Roll's</a></li>
+                <li><a onclick = "CloseMen()" href="#dessert">Dessert</a></li>
+                <li><a onclick = "CloseMen()" href="#indian">Indian </a></li>
+                <li><a onclick = "CloseMen()" href="#pizza">Pizza's</a></li>
+                <li><a onclick = "CloseMen()" href="#drinks">Breverage</a></li>
+                <li><a onclick = "CloseMen()" href="#meal">Meals</a></li>
+            </ul>
+            <ul class = "menu_Link_ul">
+                    <li><a href="https://www.facebook.com/profile.php?id=100013975472406"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href= "https://www.instagram.com/nitingupta1906/"><i class="fab fa-instagram" ></i></a></li>
+                    <li><a href= "https://www.linkedin.com/in/nitin-gupta-6732211b7/"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href= "https://twitter.com/NitinGu24695830"><i class="fab fa-twitter"></i></a></li>
+    
+            </ul>
+        </div>
+        <div class = Menu_top>
+            <div class="Menu_top_img">
+                <div>
+                    <img src="./image/menu/menutop1.jpg" />
+                    <div class="Menu_img_overlay">
+                        <h1>Our Menu</h1>
+                        <p>“A recipe has no soul. You, as the cook, must bring soul to the recipe.”</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./image/menu/menutop2.jpg" />
+                    <div class="Menu_img_overlay">
+                        <h1>Delicious</h1>
+                        <p>We feature locally sourced and sustainable ingredients wherever possible.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./image/menu/menutop4.jpeg" />
+                    <div class="Menu_img_overlay">
+                        <h1>Try Out</h1>
+                        <p>“Food for us comes from our relatives, whether they have wings or fins or roots. That is how we consider food. Food has a culture. It has a history. It has a story. It has relationships.”</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./image/menu/menutop4.jpg" />
+                    <div class="Menu_img_overlay">
+                        <h1>Tasty Burger</h1>
+                        <p>“I know once people get connected to real food, they never change back.”</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div id= 'dessert' class ="menu_item_con">
+                <h1>DESSERT</h1><hr><hr>
+                <div class ="menu_items"><p>MARGARET’S MAPLE SUGAR PIE</p><span>50</span></div>
+                <div class ="menu_items"><p>VANILLA CAKE WITH CHOCOLATE ICING</p><span>150</span></div>
+                <div class ="menu_items"><p>TAHITIAN VANILLA BEAN CRÈME BRÛLÉE</p><span>250</span></div>
+                <div class ="menu_items"><p>Lava Cake</p><span>60</span></div>
+                <div class ="menu_items"><p>Butterscotch Mousse Cake</p><span>80</span></div>
+           
+                <hr>
+            </div>
+            
+            <div id = "roll" class ="menu_item_con">
+                <h1>ROLL'S</h1><hr><hr>
+                <div class ="menu_items"><p>Vietnamese Cold Spring Rolls</p><span>50</span></div>
+                <div class ="menu_items"><p>Mutton Kathi Roll</p><span>80</span></div>
+                <div class ="menu_items"><p>Chicken Shawarma</p><span>90</span></div>
+                <div class ="menu_items"><p>Paneer Tikka Kathi Roll</p><span>60</span></div>
+                <div class ="menu_items"><p>Hummus with Avocado Rolls </p><span>40</span></div>
+                <div class ="menu_items"><p>Chicken Roll</p><span>80</span></div>
+                <div class ="menu_items"><p>Egg Chicken Roll </p><span>80</span></div>
+                <div class ="menu_items"><p>Butter Chicken Roll</p><span>90</span></div>
+                <div class ="menu_items"><p>Mutton Roll</p><span>60</span></div>
+                <div class ="menu_items"><p>Egg Malai Tikka Roll</p><span>50</span></div>
+                <div class ="menu_items"><p>Paneer Roll With Cream</p><span>80</span></div>
+                <hr>
+            </div>
+
+            <div id = "indian" class ="menu_item_con">
+                <h1>Indian</h1><hr><hr>
+                <div class ="menu_items"><p>Aloo Gobi</p><span>199</span></div>
+                <div class ="menu_items"><p>Butter chicken</p><span>150</span></div>
+                <div class ="menu_items"><p>Chana masala. </p><span>150</span></div>
+                <div class ="menu_items"><p>Palak paneer</p><span>148</span></div>
+                <div class ="menu_items"><p>Chicken tikka masala</p><span>178</span></div>
+                <div class ="menu_items"><p>Fish curry.</p><span>150</span></div>
+                <div class ="menu_items"><p>Maysore Dosa</p><span>155</span></div>
+                <div class ="menu_items"><p>Mix veg</p><span>124</span></div>
+                <div class ="menu_items"><p>Korma</p><span>128</span></div>
+                <div class ="menu_items"><p>Biryani</p><span>228</span></div>
+                <div class ="menu_items"><p>Butter Naan</p><span>28</span></div>
+                <div class ="menu_items"><p>Kebab</p><span>158</span></div>
+                <div class ="menu_items"><p>baby corn</p><span>139</span></div>
+                <div class ="menu_items"><p>Matar Alu</p><span>135</span></div>
+                <div class ="menu_items"><p>paneer Bhurgi</p><span>188</span></div>
+                <div class ="menu_items"><p>palak Paneer</p><span>165</span></div>
+                <div class ="menu_items"><p>Fried Rice</p><span>142</span></div>
+
+
+                <hr>
+            </div>
+            <div id = "pizza" class ="menu_item_con">
+                <h1>PIZZA'S</h1><hr><hr>
+                <div class ="menu_items"><p>Margherita</p><span>95</span></div>
+                <div class ="menu_items"><p>Double Cheese Margherita</p><span>50</span></div>
+                <div class ="menu_items"><p>Farm House</p><span>50</span></div>
+                <div class ="menu_items"><p>Peppy Paneer</p><span>48</span></div>
+                <div class ="menu_items"><p>Mexican Green Wave</p><span>78</span></div>
+                <div class ="menu_items"><p>Deluxe Veggie</p><span>50</span></div>
+                <div class ="menu_items"><p>CHEESE N CORN</p><span>55</span></div>
+                <div class ="menu_items"><p>PANEER MAKHANI</p><span>24</span></div>
+                <div class ="menu_items"><p>VEGGIE PARADISE</p><span>58</span></div>
+
+                <hr>
+            </div>
+            <div id = "drinks" class ="menu_item_con">
+                <h1>BREVERAGE</h1><hr><hr>
+                <div class ="menu_items"><p>Coca Cola</p><span>40</span></div>
+                <div class ="menu_items"><p>Diet Coke</p><span>50</span></div>
+                <div class ="menu_items"><p>Espresso</p><span>80</span></div>
+                <div class ="menu_items"><p>Cappuccino</p><span>50</span></div>
+                <div class ="menu_items"><p>Latte Macchiato</p><span>40</span></div>
+                <div class ="menu_items"><p>Iced Coffee</p><span>60</span></div>
+                <div class ="menu_items"><p>Hot Chocolate</p><span>60</span></div>
+                <div class ="menu_items"><p>Cappy Raspberry</p><span>50</span></div>
+                <div class ="menu_items"><p>Black Coffee</p><span>70</span></div>
+                <div class ="menu_items"><p>Cappy Apple</p><span>30</span></div>
+                <div class ="menu_items"><p>Cappy Orange</p><span>50</span></div>
+                <div class ="menu_items"><p>Cappy Orange</p><span>40</span></div>
+                <div class ="menu_items"><p>Cappy Pine</p><span>40</span></div>
+                <div class ="menu_items"><p>Cappy Cherry</p><span>40</span></div>
+                <div class ="menu_items"><p>Cappy Banaba</p><span>40</span></div>
+                <div class ="menu_items"><p>Cappy Guava</p><span>60</span></div>
+                <div class ="menu_items"><p>Cappy Strawberry</p><span>20</span></div>
+                <hr>
+            </div>
+
+            <div id = "meal" class ="menu_item_con">
+                <h1>Meals</h1><hr><hr>
+                <div class ="menu_items"><p>Veg Zinger Box</p><span>299</span></div>
+                <div class ="menu_items"><p>Tandoori Zinger Box</p><span>350</span></div>
+                <div class ="menu_items"><p>Classic Zinger Box</p><span>250</span></div>
+                <div class ="menu_items"><p>Chicken Rice Box</p><span>248</span></div>
+                <div class ="menu_items"><p>Mexican Green Wave</p><span>278</span></div>
+                <div class ="menu_items"><p>All Chicken Box</p><span>350</span></div>
+                <div class ="menu_items"><p>Veg Rice Box</p><span>255</span></div>
+                <div class ="menu_items"><p>Combo Pack</p><span>224</span></div>
+                <div class ="menu_items"><p>Surprice Meal</p><span>258</span></div>
+
+                <hr>
+            </div>
+        </div>
+    </div>
+    <script src ='./menu.js'></script>
+    
+</body>
+</html>
